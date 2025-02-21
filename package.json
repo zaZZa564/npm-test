@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/zaZZa564/npm-test/issues"
   },
-  "homepage": "https://github.com/zaZZa564/npm-test#readme",
-  "dependencies": {
-    "cowsay": "^1.6.0"
-  }
+  "homepage": "https://github.com/zaZZa564/npm-test#readme"
 }
