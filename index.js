@@ -1,12 +1,9 @@
-let num = 5;
-console.log(num);
-// cowsay JavaScript FTW!
-// $ cowsay JavaScript FTW!
-//  _________________
-// < JavaScript FTW! >
-//  -----------------
-//         \   ^__^
-//          \  (oo)\_______
-//             (__)\       )\/\
-//                 ||----w |
-//                 ||     ||
+// подключение модуля
+const CC = require('currency-converter-lt');
+
+// создание экземпляра конвертера
+let currencyConverter = new CC();
+
+// использование
+currencyConverter.from("USD").to("EUR").amount(100).convert;
+console.log(currencyConverter)
